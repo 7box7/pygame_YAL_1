@@ -241,6 +241,8 @@ class Game:
         self.pause_logo = pygame.sprite.Group()
 
         self.gran = 120
+        self.platform_gain = self.data["settings"]["platform_gains"]
+        self.redraw_platforms = False
         self.bad_apple_spawn = self.data["settings"]["bad_apple_time"]
         self.delete_bad_apples = self.data["settings"]["delete_bad_apples"]
 
