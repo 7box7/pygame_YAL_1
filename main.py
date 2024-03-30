@@ -222,8 +222,11 @@ class Game:
         self.BadApple((5, 105), self)
 
     def delete_text_menu(self):
-        for i in range(3):
-            self.apples.sprites()[1].kill()
+        try:
+            for i in range(3):
+                self.apples.sprites()[1].kill()
+        except IndexError:
+            pass
 
         for i in self.start_text:
             i.kill()
