@@ -25,7 +25,7 @@ class Game:
             "snake": {
                 "body": {
                     "image": "body.png",
-                    "size": (20, 20)
+                    "size": (50, 50)
                 },
                 "head": {
                     "image": "body.png",
