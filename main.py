@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 
-size = width, height = 800, 800
+size = width, height = 1000, 1000
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 pygame.font.init()
